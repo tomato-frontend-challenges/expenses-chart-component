@@ -1,4 +1,4 @@
-[
+var data = [
   {
     "day": "mon",
     "amount": 17.45

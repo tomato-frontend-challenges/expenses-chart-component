@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+@import "./styles/variables.css";
+@import "./styles/container.css";
+@import "./styles/balance.css";
+@import "./styles/spending.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  position: relative;
+
+  min-height: 100%;
+  width: 100%;
+
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+body {
+  height: 100vh;
+  background-color: var(--color-cream);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.attribution {
+  margin: 10px;
+  font-size: 0.8rem;
+}
+

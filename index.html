@@ -1,43 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Expenses chart component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="globals.css">
+
 </head>
+
 <body>
+  <main class="main">
+    <section class="container">
+      <header class="balance">
+        <div class="balance__container">
+          <p class="balance__title">My balance</p>
+          <p class="balance__amount">$921.48</p>
+        </div>
+        <img class="balance__logo" src="./images/logo.svg" alt="">
+      </header>
 
-  My balance
-  $921.48
+      <article class="spending">
+        <h1 class="spending__title">Spending - Last 7 days</h1>
 
-  Spending - Last 7 days
+        <article class="spending__chart">
+          <li class="spending__day">
+            <div class="spending__day-container">
+              <div class="spending__day-bar">
+                <div class="spending__day-bar-tooltip">0</div>
+              </div>
+            </div>
+            <p>mon</p>
+          </li>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+          <li class="spending__day">
+            <div class="spending__day-container">
+              <div class="spending__day-bar">
+                <div class="spending__day-bar-tooltip">0</div>
+              </div>
+            </div>
+            <p>tue</p>
+          </li>
 
-  Total this month
-  $478.33
+          <li class="spending__day">
+            <div class="spending__day-container">
+              <div class="spending__day-bar">
+                <div class="spending__day-bar-tooltip">0</div>
+              </div>
+            </div>
+            <p>wed</p>
+          </li>
 
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <li class="spending__day">
+            <div class="spending__day-container">
+              <div class="spending__day-bar">
+                <div class="spending__day-bar-tooltip">0</div>
+              </div>
+            </div>
+            <p>thu</p>
+          </li>
+
+          <li class="spending__day">
+            <div class="spending__day-container">
+              <div class="spending__day-bar">
+                <div class="spending__day-bar-tooltip">0</div>
+              </div>
+            </div>
+            <p>fri</p>
+          </li>
+
+          <li class="spending__day">
+            <div class="spending__day-container">
+              <div class="spending__day-bar">
+                <div class="spending__day-bar-tooltip">0</div>
+              </div>
+            </div>
+            <p>sat</p>
+          </li>
+
+          <li class="spending__day">
+            <div class="spending__day-container">
+              <div class="spending__day-bar">
+                <div class="spending__day-bar-tooltip">0</div>
+              </div>
+            </div>
+            <p>sun</p>
+          </li>
+        </article>
+
+        <div class="spending__line"></div>
+
+        <article class="spending__total">
+          <div class="spending__total-container">
+            <p class="spending__total-title">Total this month</p>
+            <p class="spending__total-amount">$478.33</p>
+          </div>
+
+          <div class="spending__growth-container">
+            <p class="spending__growth">+2.4%</p>
+            <p class="spending__growth-title">from last month</p>
+          </div>
+        </article>
+
+      </article>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./data.js"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>

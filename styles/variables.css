@@ -1,0 +1,19 @@
+:root {
+  --border-radius: 10px;
+
+  /* Primary */
+  --color-soft-red: hsl(10, 79%, 65%);
+  --color-cyan: hsl(186, 34%, 60%);
+
+  /* Neutral */
+  --color-dark-brown: hsl(25, 47%, 15%);
+  --color-medium-brown: hsl(28, 10%, 53%);
+  --color-cream: hsl(27, 66%, 92%);
+  --color-very-pale-orange: hsl(33, 100%, 98%);
+  
+  /* Font */
+  --font-family: "DM Sans", sans-serif;
+  --font-size: 18px;
+  --font-weight-medium: 400;
+  --font-weight-heavy: 700;
+}

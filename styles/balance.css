@@ -1,0 +1,31 @@
+.balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 1.5rem 1rem;
+  margin-bottom: 16px;
+  border-radius: 0.6rem;
+  height: 100px;
+
+  background-color: var(--color-soft-red);
+}
+
+.balance__title {
+  padding-bottom: 6px;
+
+  font-size: 0.8rem;
+  color: var(--color-very-pale-orange);
+}
+
+.balance__amount {
+  font-size: 1.3rem;
+  font-weight: var(--font-weight-heavy);
+
+  color: var(--color-very-pale-orange);
+}
+
+.balance__logo {
+  height: auto;
+  width: 60px;
+}
