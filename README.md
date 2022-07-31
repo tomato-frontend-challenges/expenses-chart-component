@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshots
 
-TO BE UPLOADED
+![expenses_chart_component](https://user-images.githubusercontent.com/24487667/182007131-9d188697-840a-4076-9a94-0ea0f7e30470.png)
 
 ### Links
 
